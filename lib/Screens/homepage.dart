@@ -50,7 +50,7 @@ class _HomePageState extends State<HomePage> {
             child: Container(
               color: Colors.transparent,
               margin: EdgeInsets.only(top : 40),
-              padding: EdgeInsets.all(20),
+              padding: EdgeInsets.all(30),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -119,8 +119,9 @@ class _HomePageState extends State<HomePage> {
                                 ),
                               ),
                               Container(
-                                height: height*0.16,
-                              
+                                height: height*0.13,
+                                width : width,
+                               
                                 child: Column(
                                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                                   children: [
