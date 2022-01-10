@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
 
                   double result = (_page - index)+1;
                   double values = (  (-0.7*(result*result))+ (1.4*result) +0.3  );
-                  print(values);
+                  
                   return Transform.translate(
                     offset: Offset(0,-19),
                     child: Transform.scale(
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                                 
                                 child: Image.asset(
                                   boats[index].image,
-                                  height: height * 0.69,
+                                  height: height * 0.61,
                                                         
                                   fit: BoxFit.contain,
                                 ),
